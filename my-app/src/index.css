@@ -1,0 +1,102 @@
+*{
+    background-color:rgb(255, 255, 244) ;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.titulo{
+    padding: 2rem;
+    margin: 3rem;
+}
+
+form{
+    background-color:rgb(146, 146, 250);
+    padding: 5rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2rem;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+}
+
+form input{
+    padding: 0.5rem;
+    width: 30rem;
+    align-self: center;
+    font-size: large;
+    border-radius: 0.5rem;
+}
+
+form button{
+   margin: 0.5rem;
+    padding: 1rem;
+    width: 10rem;
+    align-self: center;
+    border-radius: 1rem;
+    font-size: medium;
+}
+
+form button:hover{
+    background-color: rgb(60, 151, 0);
+    color: white;
+}
+
+.filters button{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    width: 8rem;
+    align-self: center;
+    border-radius: 1rem;
+    font-size: medium;
+}
+
+.filters button:hover{
+    background-color: rgb(146, 146, 250);
+    color: white;
+}
+
+.filters button.active{
+    background-color: rgb(146, 146, 250);
+    color: white;
+}
+
+li{
+    padding: 1rem; 
+}
+.itens{
+    background-color: rgb(146, 146, 250);
+    margin: 0.5rem;
+    padding: 0.5rem;
+    width: 8rem;
+    align-self: center;
+    border-radius: 0.5rem;
+    font-size: x-large;
+    color: white;
+}
+
+ul{
+    background-color: rgb(146, 146, 250);
+    min-height: 200px;
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 10px;
+    list-style: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+li{
+    background-color: rgb(146, 146, 250);
+}
+
+ul button{
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+    width: 3rem;
+    font-size: large;
+}
+
+ul button:hover{
+    background-color: rgb(175, 0, 0);
+    color: white;
+}
